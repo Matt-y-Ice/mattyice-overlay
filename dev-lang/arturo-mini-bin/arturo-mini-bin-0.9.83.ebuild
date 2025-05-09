@@ -25,5 +25,5 @@ src_install() {
     cp -av "${S}/." "${D}/opt/${MY_PN}/"
 
     dosym /opt/${MY_PN}/arturo /usr/bin/arturo
-    fperms 0755 /opt/${MY_PN}
+    fperms 0755 opt/${MY_PN}
 }
