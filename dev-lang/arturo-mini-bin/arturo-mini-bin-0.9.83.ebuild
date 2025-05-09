@@ -25,5 +25,5 @@ src_install() {
     cp -a "${S}" "${D}/opt/${MY_PN}"
 
     # Symlink to /usr/bin
-    dosym ../../opt/${MY_PN}/arturo /usr/bin/arturo
+    dosym /opt/${MY_PN}/arturo /usr/bin/arturo
 }
