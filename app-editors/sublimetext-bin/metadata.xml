@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>matty_ice_2011@pm.me</email>
+    <name>MattyIce</name>
+  </maintainer>
+  <longdescription lang="en">
+    Sublime Text is a sophisticated text editor for code, markup, and prose. This package installs the official precompiled binary.
+  </longdescription>
+  <upstream>
+    <remote-id type="homepage">https://www.sublimetext.com</remote-id>
+    <bugs-to>https://github.com/sublimehq/sublime_text/issues</bugs-to>
+  </upstream>
+</pkgmetadata>
