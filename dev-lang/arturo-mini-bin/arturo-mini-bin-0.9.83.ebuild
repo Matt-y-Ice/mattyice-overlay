@@ -18,7 +18,7 @@ RESTRICT="mirror bindist strip"
 RDEPEND=""
 QA_PREBUILT="/opt/${MY_PN}/*"
 
-S="${WORKDIR}/${MY_PN}"
+S="${WORKDIR}"
 
 src_install() {
     dodir /opt
