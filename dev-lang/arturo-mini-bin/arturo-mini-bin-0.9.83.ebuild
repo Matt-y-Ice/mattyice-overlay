@@ -21,9 +21,8 @@ QA_PREBUILT="/opt/${MY_PN}/*"
 S="${WORKDIR}"
 
 src_install() {
-    dodir /opt
-    cp -a "${S}" "${D}/opt/${MY_PN}"
+    dodir /opt/${MY_PN}
+    cp -av "${S}/." "${D}/opt/${MY_PN}/"
 
-    # Symlink to /usr/bin
     dosym /opt/${MY_PN}/arturo /usr/bin/arturo
 }
