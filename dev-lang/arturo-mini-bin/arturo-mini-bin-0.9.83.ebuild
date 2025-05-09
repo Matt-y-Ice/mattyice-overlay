@@ -12,7 +12,7 @@ SRC_URI="https://github.com/arturo-lang/arturo/releases/download/v${PV}/${MY_PN}
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 RESTRICT="mirror bindist strip"
 
 RDEPEND=""
