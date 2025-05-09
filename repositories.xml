@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>mattyice-overlay</name>
+    <description lang="en">MattyIce's Custom Gentoo Overlay.</description>
+    <homepage>https://github.com/Matt-y-Ice/mattyice-overlay</homepage>
+    <owner type="person">
+      <name>MattyIce</name>
+      <email>matty_ice_2011@pm.me</email>
+    </owner>
+    <source type="git">git://github.com/Matt-y-Ice/mattyice-overlay.git</source>
+    <feed>https://github.com/Matt-y-Ice/mattyice-overlay/commits/main.atom</feed>
+  </repo>
+</repositories>

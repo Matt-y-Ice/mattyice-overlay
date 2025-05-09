@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit desktop xdg
+
 MY_PN="sublime_text"
 MY_PV="${PV}"
 
