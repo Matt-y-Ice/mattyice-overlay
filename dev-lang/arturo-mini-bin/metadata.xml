@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>matty_ice_2011@pm.me</email>
+    <name>MattyIce</name>
+  </maintainer>
+  <longdescription lang="en">
+    Arturo is a modern, expressive, functional programming language designed for simplicity, flexibility, and rapid prototyping. It features a minimal syntax, first-class functions, and built-in support for data structures, concurrency, and scripting tasks. This prebuild binary excludes GTK libraries.
+  </longdescription>
+  <upstream>
+    <remote-id type="homepage">https://arturo-lang.io/</remote-id>
+    <bugs-to>https://github.com/arturo-lang/arturo/issues</bugs-to>
+  </upstream>
+</pkgmetadata>
